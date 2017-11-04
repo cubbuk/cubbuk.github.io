@@ -1,0 +1,54 @@
+.active  {
+    font-weight: bold !important;
+    font-size: large !important;
+    color: #51a5ff !important;
+}
+
+ul.navigation {
+    margin: 20px auto 40px;
+    font-size: 1.5em;
+    background-color: #FFF;
+    border: none;
+}
+
+ul.navigation li {
+    list-style: none;
+    width: auto;
+    float: none;
+    border-right: none;
+}
+
+ul.navigation li a {
+    font: 14px/1.5 "Noto Sans"
+}
+
+div.technology-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.technology {
+    padding: 2%;
+    text-align: center;
+    width: 25%;
+}
+
+div.references-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.reference {
+    padding: 1%;
+    text-align: center;
+    width: 25%;
+    margin-bottom: 5%;
+}

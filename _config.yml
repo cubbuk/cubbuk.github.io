@@ -1,2 +1,9 @@
 name: Mehmet Çubuk, 20 Satır
 theme: jekyll-theme-minimal
+navigation:
+- text: Home
+  url: /
+- text: About Me
+  url: /about/
+- text: References
+  url: /references/

@@ -1,0 +1,42 @@
+---
+layout: default
+title: About me
+technologies:
+-   logoUrl: aws-logo.svg
+-   logoUrl: shippable.svg
+-   name: NODE JS
+    logoUrl: nodejs-plain.svg
+-   name: JAVA
+    logoUrl: java-plain.svg
+-   name: MONGODB
+    logoUrl: mongodb-plain.svg
+-   name: MYSQL
+    logoUrl: mysql.svg
+-   name: REDIS
+    logoUrl: redis-plain.svg
+-   name: REACT
+    logoUrl: react-original.svg
+-   name: REACT NATIVE
+    logoUrl: react-original.svg
+-   name: ANGULAR JS
+    logoUrl: angularjs-plain.svg
+---
+<div>
+    <h1>About me</h1>
+    <p>
+        I am a software engineer having more than 8 years of experience developing applications. I am running my own
+        company 20 Satır since April 2016 working as a freelancer. I have a B.Sc degree on
+        Computer Science and Engineering from Bilkent University (2003-2007) and M.Sc degree again on Computer Science
+        and Engineering from Technical University of Eindhoven (2007-2009). I am currently living in İstanbul
+        and working remotely for my clients.
+    </p>
+    <h3>Technology Stack</h3>
+    <div class="technology-section">
+        {% for technology in page.technologies %}
+        <div class="technology">
+            <img width="64" height="64" src="../assets/images/{{ technology.logoUrl }}" />
+            <div>{{ technology.name }}</div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

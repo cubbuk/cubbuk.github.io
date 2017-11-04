@@ -1,0 +1,42 @@
+---
+layout: default
+title: About me
+references:
+    -   name: HOSTMAKER
+        logoUrl: hostmaker-logo.svg
+        href: https://www.hostmaker.com
+    -   name: VIAFONE
+        logoUrl: viafone.png
+        href: http://www.viafone.com
+        noWidth: true
+    -   name: TOPTAL
+        logoUrl: toptal-logo.png
+        href: https://www.toptal.com/resume/mehmet-cubuk
+        noWidth: true
+    -   name: SWISH
+        logoUrl: swish.png
+        href: http://swishvideo.io
+        noWidth: true
+    -   name: REZTORAN
+        logoUrl: reztoran.svg
+        href: https://www.reztoran.com
+    -   name: INFOOWL
+        logoUrl: infoowl.png
+        href: http://infoowl.net
+
+---
+<div>
+    <h1>REFERENCES</h1>
+    <div class="references-section">
+        {% for reference in page.references %}
+        <div class="reference">
+            {% unless reference.noWidth %}
+            <a href="{{reference.href}}" target="_blank"><img width="120" src="../assets/images/{{ reference.logoUrl }}" /></a>
+            {% endunless %}
+            {% if reference.noWidth %}
+            <a href="{{reference.href}}" target="_blank"><img src="../assets/images/{{ reference.logoUrl }}" /></a>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+</div>

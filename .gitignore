@@ -1,0 +1,14 @@
+# Application files
+node_modules/
+npm-debug.log
+
+.vscode/
+
+# Idea project files
+.idea/*
+
+#mac hidden folders/files
+*.DS_Store
+
+# logs
+*.log

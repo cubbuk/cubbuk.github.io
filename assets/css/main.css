@@ -10,6 +10,13 @@ include
     color: #51a5ff !important;
 }
 
+div.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 ul.navigation {
     margin: 20px auto 40px;
     font-size: 1.5em;

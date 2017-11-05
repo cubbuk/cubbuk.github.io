@@ -19,19 +19,14 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         <div style="display: flex; flex-direction: column; align-items: center">
             {% unless page.layout == 'front' %}
-            <div>
-                <ul class="navigation">
-                    {% for link in site.navigation %}
-                    {% assign active = nil %}
-                    {% if page.url == link.url%}
-                    {% assign active = 'active' %}
-                    {% endif %}
-
-                    <li class="{% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
-                        <a class="{{ active }}" href="{{ link.url }}">{{ link.text }}</a>
-                    </li>
-                    {% endfor %}
-                </ul>
+            <div class="navigation">
+                {% for link in site.navigation %}
+                {% assign active = nil %}
+                {% if page.url == link.url%}
+                {% assign active = 'active' %}
+                {% endif %}
+                <a class="{{ active }}" href="{{ link.url }}">{{ link.text }}</a>
+                {% endfor %}
             </div>
             <div class="platforms">
                 <div class="platform">

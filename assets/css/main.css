@@ -17,24 +17,22 @@ div.logo {
     align-items: center;
 }
 
-ul.navigation {
-    margin: 20px auto 40px;
-    font-size: 1.5em;
-    background-color: #FFF;
-    border: none;
-    height: auto;
+div.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-ul.navigation li {
+div.navigation a {
+    color: #000;
     list-style: none;
-    width: auto;
-    float: none;
-    border-right: none;
     margin: 5px 0 5px 0;
+    font: 14px/1.5 "Noto Sans";
 }
 
-ul.navigation li a {
-    font: 14px/1.5 "Noto Sans"
+div.navigation a:hover {
+    color: #ab0900;
 }
 
 div.platforms {

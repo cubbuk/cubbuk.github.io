@@ -1,0 +1,23 @@
+div.education-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.degree {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+div.degree-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.degree-period {
+    flex: 1 0 80px;
+    text-align: right;
+}

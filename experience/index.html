@@ -1,0 +1,65 @@
+---
+layout: default
+title: Working Experience
+---
+<link rel="stylesheet" href="experience.css">
+<link rel="stylesheet" href="project.css">
+
+<div>
+    <div class="section-title">Working Experience</div>
+    <div class="experience-section">
+        {% for experience in site.experiences %}
+        <div class="experience-card">
+            {%if experience.projects.size > 1%}
+            <div class="experience-header">
+                <div class="experience-title-container">
+                    <div class="experience-title">{{experience.title}}</div>
+                    <div class="experience-period">{{experience.period}}</div>
+                </div>
+                <div>{{experience.summary}}</div>
+            </div>
+            <hr />
+            {% endif %}
+            {%if experience.projects%}
+            <div class="projects">
+                {% for project in experience.projects %}
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="compact-row">
+                            <div class="project-title">
+                                {%if project.url%}
+                                <a href="{{project.url}}" target="_blank">{{project.title}}</a>
+                                {% else %}
+                                {{project.title}}
+                                {% endif %}
+                            </div>
+                            <div class="project-summary"><i>{{project.companyInfo}}</i></div>
+                        </div>
+                        <div class="extended-row">
+                            <div class="project-position">{{project.position}}</div>
+                            <div class="project-position">{{project.duration}}</div>
+                        </div>
+                        <div class="project-technology-card">
+                            <div class="project-technologies">
+                                {% for technology in project.techStack %}
+                                <div class="project-technology">{{technology}}</div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <ul>
+                            {% for detail in project.details %}
+                            <li>{{detail.title}}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                <hr />
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+</div>

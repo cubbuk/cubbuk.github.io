@@ -1,0 +1,43 @@
+div.project-card {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+div.project-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.project-title {
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 5px;
+}
+
+div.project-position {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+div.project-technology-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div.project-technologies {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 10px 0 10px 0;
+}
+
+div.project-technology {
+    color: #FFF;
+    background-color: #0086B3;
+    border: 1px solid #0086B3;
+    padding: 2px 5px 2px 5px;
+    margin: 0 5px 5px 0;
+}

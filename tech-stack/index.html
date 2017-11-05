@@ -1,0 +1,17 @@
+---
+layout: default
+title: About me
+---
+<link rel="stylesheet" href="technology.css">
+
+<div>
+    <div class="section-title">Technology Stack</div>
+    <div class="technology-section">
+        {% for technology in site.technologies %}
+        <div class="technology">
+            <img width="64" height="64" src="../assets/images/{{ technology.logoUrl }}" />
+            <div>{{ technology.name }}</div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

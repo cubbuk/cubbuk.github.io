@@ -1,41 +1,26 @@
 ---
 layout: default
 title: About me
-technologies:
--   logoUrl: aws-logo.svg
--   logoUrl: shippable.svg
--   name: NODE JS
-    logoUrl: nodejs-plain.svg
--   name: JAVA
-    logoUrl: java-plain.svg
--   name: MONGODB
-    logoUrl: mongodb-plain.svg
--   name: MYSQL
-    logoUrl: mysql.svg
--   name: REDIS
-    logoUrl: redis-plain.svg
--   name: REACT
-    logoUrl: react-original.svg
--   name: REACT NATIVE
-    logoUrl: react-original.svg
--   name: ANGULAR JS
-    logoUrl: angularjs-plain.svg
 ---
+<link rel="stylesheet" href="degree.css">
+
 <div>
-    <h1>About me</h1>
+    <div class="section-title">About me</div>
     <p>
         I am a software engineer having more than 8 years of experience developing applications. I am running my own
-        company 20 Satır since April 2016 working as a freelancer. I have a B.Sc degree on
-        Computer Science and Engineering from Bilkent University (2003-2007) and M.Sc degree again on Computer Science
-        and Engineering from Technical University of Eindhoven (2007-2009). I am currently living in İstanbul
+        company 20 Satır since April 2015 working as a freelancer. I am currently living in İstanbul
         and working remotely for my clients.
     </p>
-    <h3>Technology Stack</h3>
-    <div class="technology-section">
-        {% for technology in page.technologies %}
-        <div class="technology">
-            <img width="64" height="64" src="../assets/images/{{ technology.logoUrl }}" />
-            <div>{{ technology.name }}</div>
+    <hr/>
+    <div class="education-section">
+        <div class="section-title">Education</div>
+        {% for degree in site.degrees %}
+        <div class="degree">
+            <b>{{degree.title}}</b>
+            <div class="degree-details">
+                <div>{{degree.school}}</div>
+                <div class="degree-period">{{degree.period}}</div>
+            </div>
         </div>
         {% endfor %}
     </div>

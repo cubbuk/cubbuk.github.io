@@ -1,0 +1,14 @@
+div.technology-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.technology {
+    padding: 2%;
+    text-align: center;
+    width: 25%;
+}

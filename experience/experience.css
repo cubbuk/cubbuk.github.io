@@ -1,0 +1,27 @@
+div.experience-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.experience-card {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+div.experience-header {
+    padding-bottom: 10px;
+}
+
+div.experience-title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
+}
+
+div.experience-title {
+    font-weight: bold;
+}

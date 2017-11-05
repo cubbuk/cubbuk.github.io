@@ -1,0 +1,15 @@
+div.references-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.reference {
+    padding: 1%;
+    text-align: center;
+    width: 25%;
+    margin-bottom: 5%;
+}

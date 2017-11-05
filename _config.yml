@@ -5,5 +5,284 @@ navigation:
   url: /
 - text: About Me
   url: /about/
+- text: Working Experience
+  url: /experience/
+- text: Tech Stack
+  url: /tech-stack/
 - text: References
   url: /references/
+degrees:
+- title: Master's degree in Computer Science and Engineering (Thesis on Recommendation Engines)
+  school: Technical University of Eindhoven (TU/E) - Eindhoven, Netherlands
+  period: 2007-2009
+- title: Bachelor of Science in Computer Science and Engineering
+  school: Bilkent University - Ankara, Turkey
+  period: 2003-2007
+experiences:
+- title: Founder of 20 Satır
+  period: 2015 - PRESENT
+  summary: Working as a freelancer, providing solutions to my clients using mostly Javascript technologies.
+  projects:
+    - title: Hostmaker
+      url: https://www.hostmaker.com
+      companyInfo: "London's #1 Airbnb Management Company"
+      position: Full stack software engineer
+      techStack:
+        - NodeJS
+        - React Native
+        - React
+        - Sequelize
+        - Epilogue
+        - Express JS
+        - Mocha
+        - Chai
+        - Sinon
+        - AWS Elastic Beanstalk
+        - AWS Kinesis Streams
+        - AWS SNS
+        - AWS RDS
+        - AWS ElastiCache Redis
+        - Shippable
+        - MySQL
+        - LogEntries
+        - Bugsnag
+        - New Relic
+      details:
+        - title: Developed an Android application for the operation team using React Native to smooth their daily operations.
+        - title: Worked on API to provide restful services to web clients and mobile app.
+        - title: Worked on web projects for onboarding hosts to system and showing details through internal panel
+        - title: Implemented a process to track all the changes on db. Used binlogs of mysql and pipe each update to kinesis streams and listen to kinesis stream to save each change.
+    - title: SWISH VIDEOS
+      url: http://www.swishvideo.io
+      companyInfo: "Curated video platform"
+      position: Lead Software Engineer
+      techStack:
+        - NodeJS
+        - React Native
+        - MongoDB
+        - Mongoose
+        - Express JS
+        - Mocha
+        - Chai
+        - Sinon
+        - AWS Elastic Beanstalk
+        - MongoLabs
+        - Youtube API
+      details:
+        - title: Developed the mobile app for showing curated videos from youtube api
+        - title: Implemented the restful API
+        - title: Implemented social features such as invitations, sharing video, following friends
+        - title: Extensive animations using React Native and Youtube API to gain best user experience
+    - title: Viafone
+      url: http://www.viafone.com
+      companyInfo: "Dubai-based startup providing loyalty programs for malls"
+      position: FullStack Engineer
+      techStack:
+        - Angular JS
+        - NodeJS
+        - OVH
+      details:
+        - title: Developed a report framework and dashboard using AngularJS and Node.js for Viafone
+        - title: Fixed some performance problems at the back-end by creating aggregated data collections and restructuring data stored in MongoDB to make it possible for querying data
+        - title: Used Angular UI-Grid library for the report pages
+    - title: Infoowl
+      url: http://infoowl.net
+      companyInfo: "Software House from Turkey"
+      position: Frontend Engineer
+      techStack:
+        - Angular JS
+        - Docker
+      details:
+        - title: Developed an onboarding merchant flow for one of the leading eCommerce company of Turkey
+    - title: Reztoran.com
+      url: https://www.reztoran.com
+      companyInfo: "The easy way of making reservations in İstanbul"
+      position: Frontend Engineer
+      techStack:
+        - AngularJS
+        - Bower
+      details:
+        - title: Improved Angular Project of Reztoran.com
+        - title: Developed many pages of the system and implemented signup, Facebook login features
+    - title: Troy Bilişim
+      position: Frontend Engineer
+      companyInfo: "Software House from Turkey"
+      techStack:
+        - React JS
+        - Webpack
+      details:
+        - title: Gave consultancy on React
+        - title: Developed flight reservation of a travel reservation application using ReactJS
+        - title: Organized the main structure of the front-end application
+    - title: LethalBet
+      companyInfo: "Online gaming betting platform from Florida"
+      position: FullStack Software Engineer
+      techStack:
+        - NodeJS
+        - React
+        - MongoDB
+        - Express JS
+        - Mocha
+        - Chai
+        - Sinon
+        - Digital Ocean
+      details:
+        - title: Implemented retrieving online game results from a third party API
+        - title: Implemented cache invalidation using Webpack's chunk-hash feature
+        - title: Integrated OfferWall API to the system
+        - title: Improved deployment procedure of back-end and front-end projects
+        - title: Fixed several bugs on both the back-end and front-end.
+    - title: ŞikayetVar
+      url: https://www.sikayetvar.com
+      companyInfo: "Leading complaint platform of Turkey"
+      position: React Native Mobile App Developer
+      techStack:
+        - React Native
+      details:
+        - title: Implemented the Android version of the mobile app using React Native
+        - title: Had great experience by seeing and contributing to rapid developments happening in React-Native at that time
+        - title: The app consists of video uploading, complex form manipulations, long list views, animations and push notifications
+    - title: Funthemental
+      url: http://www.funthemental.com.tr
+      companyInfo: "Guiding kids to appropriate sports by measuring their physical attributes"
+      position: Fullstack Engineer
+      techStack:
+        - NodeJS
+        - React
+        - Webpack
+        - MongoDB
+        - OVH
+      details:
+        - title: Implemented a web application to track physical measurments on childrens to track their progress on sport activities
+        - title: Implemented the web application for end users to see the results of their children
+        - title: Implemented restful API and deploy the api on OVH
+- title: Lead Backend Engineer at BiTaksi
+  period: 2014-2015
+  summary: Lead the backend development of the leading taxi platform of Turkey
+  projects:
+  - title: BiTaksi
+    url: https://www.bitaksi.com
+    companyInfo: "Turkey's leading Taxi Platform"
+    position: Lead Backend Engineer
+    duration: 2014-2015
+    techStack:
+      - NodeJS
+      - MongoDB
+      - Redis
+      - AngularJS
+      - Twilio
+      - Restify
+      - Mocha
+      - Chai
+      - Heroku
+    details:
+      - title: Converted an in-house panel to AngularJS by adding many new features which eased the work of the call center. Also implemented a dashboard and a live map where it is possible to see the number of calls and rides. Ability to make fast drill down analysis on many metrics by storing the data as a state machine.
+      - title: Implemented a DSL for creating automated campaigns for users and loyalty program for taxi drivers using Node.js, MongoDB, and AngularJS.
+      - title: Refactored the back-end of the application to make it easier for developers to work together by modularizing the services and writing unit and integration tests with Mocha.
+      - title: Implemented the back-end part of Twilio for VOIP support.
+      - title: Integrated the payment system of BKM to our app by using their SOAP API. Used EasySoap library of Node to ease the integration.
+- title: Software Engineer at Saftaş
+  period: 2011 - 2014
+  summary: Worked as a software engineer to implement an online analysis tool for social platforms and use the infrastructure of the same tool implement a social media rating platform
+  projects:
+  - title: Somera
+    companyInfo: "Social Media Rating Platform"
+    url: http://www.somera.com.tr
+    position: Software Engineer
+    duration: 2014 January - 2014 May
+    techStack:
+      - Java
+      - JSF
+      - MongoDB
+      - AngularJS
+      - Twitter API
+    details:
+      - title: Implemented a social media rating platform called Somera for calculating ratings of TV shows using AngularJS and JSF with Java.
+  - title: InsightRadar
+    companyInfo: "Online Social Media Analysis"
+    position: Software Engineer
+    duration: 2011-2014
+    techStack:
+      - Java
+      - JSF
+      - MongoDB
+      - Redis
+      - Twitter API
+    details:
+      - title: Used the Twitter API and Java for saving all the Turkish tweets (approximately more than 10 million tweets per day in that time) to MongoDB
+      - title: Found influential users about a topic using machine learning algorithms. Stored n-grams in Redis to decide sentiment of a tweet by splitting it into n-grams
+      - title: Developed a panel using JSF for clients to analyze tweets, digital news, and Facebook posts about their tracked keywords
+- title: Software Engineer at Banksoft
+  period: 2010-2011
+  summary: Lead the backend development of the leading taxi platform of Turkey
+  projects:
+  - title: Banksoft
+    url: https://www.banksoft.com.tr
+    companyInfo: "Payment Systems Solutions"
+    position: Software Engineer
+    duration: 2010-2011
+    techStack:
+      - .NET
+      - MSSQL
+      - VisualBasic
+    details:
+      - title: Implemented a courier tracking system for Finansbank. Also written many T-SQL stored procedures for creating campaigns
+      - title: Part of team in upgrading the MS SQL servers to newer version for Credit Europe Moscow (Russian bank)
+      - title: Fixed bugs related to credit card application of Halkbankası and Ziraat Bankası
+- title: Master Student at Adversitement
+  period: 2009 January -2009 July
+  summary: Lead the backend development of the leading taxi platform of Turkey
+  projects:
+  - title: Recommendation Engine for Master Thesis
+    url: https://www.adversitement.com/
+    companyInfo: Web Analytics
+    position: Junior Developer / Master Student
+    duration: 2009 January -2009 July
+    techStack:
+      - Java
+      - Javascript
+    details:
+      - title: Developed a recommendation engine for online hotel reservation sites using Adversitement's web analytics tool
+      - title: Fixed the bugs of in-house used products
+
+technologies:
+-   logoUrl: aws-logo.svg
+-   logoUrl: shippable.svg
+-   name: NODE JS
+    logoUrl: nodejs-plain.svg
+-   name: JAVA
+    logoUrl: java-plain.svg
+-   name: MONGODB
+    logoUrl: mongodb-plain.svg
+-   name: MYSQL
+    logoUrl: mysql.svg
+-   name: REDIS
+    logoUrl: redis-plain.svg
+-   name: REACT
+    logoUrl: react-original.svg
+-   name: REACT NATIVE
+    logoUrl: react-original.svg
+-   name: ANGULAR JS
+    logoUrl: angularjs-plain.svg
+
+references:
+  - name: HOSTMAKER
+    logoUrl: hostmaker-logo.svg
+    href: https://www.hostmaker.com
+  - name: VIAFONE
+    logoUrl: viafone.png
+    href: http://www.viafone.com
+    noWidth: true
+  - name: TOPTAL
+    logoUrl: toptal.svg
+    href: https://www.toptal.com/resume/mehmet-cubuk
+  - name: SWISH
+    logoUrl: swish.png
+    href: http://swishvideo.io
+    noWidth: true
+  - name: REZTORAN
+    logoUrl: reztoran.svg
+    href: https://www.reztoran.com
+  - name: INFOOWL
+    logoUrl: infoowl.png
+    href: http://infoowl.net

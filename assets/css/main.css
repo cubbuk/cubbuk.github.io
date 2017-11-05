@@ -1,5 +1,11 @@
-.active  {
-    font-weight: bold !important;
+{
+%
+include
+'../../asse'
+%
+}
+
+.active {
     font-size: large !important;
     color: #51a5ff !important;
 }
@@ -9,6 +15,7 @@ ul.navigation {
     font-size: 1.5em;
     background-color: #FFF;
     border: none;
+    height: auto;
 }
 
 ul.navigation li {
@@ -16,39 +23,38 @@ ul.navigation li {
     width: auto;
     float: none;
     border-right: none;
+    margin: 5px 0 5px 0;
 }
 
 ul.navigation li a {
     font: 14px/1.5 "Noto Sans"
 }
 
-div.technology-section {
+div.platforms {
     display: flex;
-    flex-wrap: wrap;
-    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+div.platform {
+    margin-right: 5px;
+}
+
+div.extended-row {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-div.technology {
-    padding: 2%;
-    text-align: center;
-    width: 25%;
-}
-
-div.references-section {
+div.compact-row {
     display: flex;
-    flex-wrap: wrap;
-    flex: 1;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
 }
 
-div.reference {
-    padding: 1%;
-    text-align: center;
-    width: 25%;
-    margin-bottom: 5%;
+div.section-title {
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
 }

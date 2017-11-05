@@ -4,16 +4,19 @@ title: About me
 ---
 <link rel="stylesheet" href="references.css">
 <div>
+    <div class="section-title">References</div>
     <div class="references-section">
         {% for reference in site.references %}
-        <div class="reference">
-            {% unless reference.noWidth %}
-            <a href="{{reference.href}}" target="_blank"><img width="120" src="../assets/images/{{ reference.logoUrl }}" /></a>
-            {% endunless %}
-            {% if reference.noWidth %}
-            <a href="{{reference.href}}" target="_blank"><img src="../assets/images/{{ reference.logoUrl }}" /></a>
-            {% endif %}
-        </div>
+        <a style="width:30%" href="{{reference.href}}" target="_blank">
+            <div class="reference">
+                {% unless reference.noWidth %}
+                <img width="120" src="../assets/images/{{ reference.logoUrl }}" />
+                {% endunless %}
+                {% if reference.noWidth %}
+                <img src="../assets/images/{{ reference.logoUrl }}" />
+                {% endif %}
+            </div>
+        </a>
         {% endfor %}
     </div>
 </div>

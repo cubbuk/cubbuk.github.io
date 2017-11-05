@@ -5,7 +5,7 @@ navigation:
   url: /
 - text: About Me
   url: /about/
-- text: Working Experience
+- text: Work Experience
   url: /experience/
 - text: Tech Stack
   url: /tech-stack/
@@ -23,7 +23,7 @@ experiences:
   period: 2015 - PRESENT
   summary: Working as a freelancer, providing solutions to my clients using mostly Javascript technologies.
   projects:
-    - title: Hostmaker
+    - title: HOSTMAKER
       url: https://www.hostmaker.com
       companyInfo: "London's #1 Airbnb Management Company"
       position: Full stack software engineer
@@ -49,7 +49,7 @@ experiences:
         - New Relic
       details:
         - title: Developed an Android application for the operation team using React Native to smooth their daily operations.
-        - title: Worked on API to provide restful services to web clients and mobile app.
+        - title: Worked on API to provide restful services to web clients and mobile app, adapted the modular domain based folder structure of the back-end API.
         - title: Worked on web projects for onboarding hosts to system and showing details through internal panel
         - title: Implemented a process to track all the changes on db. Used binlogs of mysql and pipe each update to kinesis streams and listen to kinesis stream to save each change.
     - title: SWISH VIDEOS
@@ -73,7 +73,7 @@ experiences:
         - title: Implemented the restful API
         - title: Implemented social features such as invitations, sharing video, following friends
         - title: Extensive animations using React Native and Youtube API to gain best user experience
-    - title: Viafone
+    - title: VIAFONE
       url: http://www.viafone.com
       companyInfo: "Dubai-based startup providing loyalty programs for malls"
       position: FullStack Engineer
@@ -85,7 +85,7 @@ experiences:
         - title: Developed a report framework and dashboard using AngularJS and Node.js for Viafone
         - title: Fixed some performance problems at the back-end by creating aggregated data collections and restructuring data stored in MongoDB to make it possible for querying data
         - title: Used Angular UI-Grid library for the report pages
-    - title: Infoowl
+    - title: INFOOWL
       url: http://infoowl.net
       companyInfo: "Software House from Turkey"
       position: Frontend Engineer
@@ -94,7 +94,7 @@ experiences:
         - Docker
       details:
         - title: Developed an onboarding merchant flow for one of the leading eCommerce company of Turkey
-    - title: Reztoran.com
+    - title: REZTORAN
       url: https://www.reztoran.com
       companyInfo: "The easy way of making reservations in İstanbul"
       position: Frontend Engineer
@@ -104,7 +104,7 @@ experiences:
       details:
         - title: Improved Angular Project of Reztoran.com
         - title: Developed many pages of the system and implemented signup, Facebook login features
-    - title: Troy Bilişim
+    - title: TROY BİLİŞİM
       position: Frontend Engineer
       companyInfo: "Software House from Turkey"
       techStack:
@@ -114,7 +114,7 @@ experiences:
         - title: Gave consultancy on React
         - title: Developed flight reservation of a travel reservation application using ReactJS
         - title: Organized the main structure of the front-end application
-    - title: LethalBet
+    - title: LETHAL BET
       companyInfo: "Online gaming betting platform from Florida"
       position: FullStack Software Engineer
       techStack:
@@ -132,7 +132,7 @@ experiences:
         - title: Integrated OfferWall API to the system
         - title: Improved deployment procedure of back-end and front-end projects
         - title: Fixed several bugs on both the back-end and front-end.
-    - title: ŞikayetVar
+    - title: ŞİKAYET VAR
       url: https://www.sikayetvar.com
       companyInfo: "Leading complaint platform of Turkey"
       position: React Native Mobile App Developer
@@ -142,7 +142,7 @@ experiences:
         - title: Implemented the Android version of the mobile app using React Native
         - title: Had great experience by seeing and contributing to rapid developments happening in React-Native at that time
         - title: The app consists of video uploading, complex form manipulations, long list views, animations and push notifications
-    - title: Funthemental
+    - title: FUNTHEMENTAL
       url: http://www.funthemental.com.tr
       companyInfo: "Guiding kids to appropriate sports by measuring their physical attributes"
       position: Fullstack Engineer
@@ -160,7 +160,7 @@ experiences:
   period: 2014-2015
   summary: Lead the backend development of the leading taxi platform of Turkey
   projects:
-  - title: BiTaksi
+  - title: BİTAKSİ
     url: https://www.bitaksi.com
     companyInfo: "Turkey's leading Taxi Platform"
     position: Lead Backend Engineer
@@ -185,7 +185,7 @@ experiences:
   period: 2011 - 2014
   summary: Worked as a software engineer to implement an online analysis tool for social platforms and use the infrastructure of the same tool implement a social media rating platform
   projects:
-  - title: Somera
+  - title: SOMERA
     companyInfo: "Social Media Rating Platform"
     url: http://www.somera.com.tr
     position: Software Engineer
@@ -198,7 +198,7 @@ experiences:
       - Twitter API
     details:
       - title: Implemented a social media rating platform called Somera for calculating ratings of TV shows using AngularJS and JSF with Java.
-  - title: InsightRadar
+  - title: INSIGHTRADAR
     companyInfo: "Online Social Media Analysis"
     position: Software Engineer
     duration: 2011-2014
@@ -216,7 +216,7 @@ experiences:
   period: 2010-2011
   summary: Lead the backend development of the leading taxi platform of Turkey
   projects:
-  - title: Banksoft
+  - title: BANKSOFT
     url: https://www.banksoft.com.tr
     companyInfo: "Payment Systems Solutions"
     position: Software Engineer
@@ -233,7 +233,7 @@ experiences:
   period: 2009 January -2009 July
   summary: Lead the backend development of the leading taxi platform of Turkey
   projects:
-  - title: Recommendation Engine for Master Thesis
+  - title: RECOMMENDATION ENGINE FOR MASTER THESIS
     url: https://www.adversitement.com/
     companyInfo: Web Analytics
     position: Junior Developer / Master Student
